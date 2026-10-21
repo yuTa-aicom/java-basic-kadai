@@ -6,7 +6,7 @@ public class CarExec_Chapter15 {
 		// TODO 自動生成されたメソッド・スタブ
 		Car_Chapter15 cars = new Car_Chapter15();
 		
-		cars.chengeGear(3);
+		cars.changeGear(3);
 		cars.run();
 
 	}

@@ -14,6 +14,7 @@ public class Car_Chapter15 {
 		case 5 -> 50;
 		default -> 10;
 		};
+		this.gear = afterGear;
 		
 		System.out.println("ギア" + beforeGear + "から" + afterGear + "に切り替えました");
 	}

@@ -20,7 +20,7 @@ public class Dictionary_Chapter21 {
 		dicMap.put("cherry", "さくらんぼ");
 	
 		for(int i = 0; i < Array.length; i++) {
-			if(Array[i].equals(dicMap.get(Array[i]))) {
+			if(dicMap.containsKey(Array[i])) {
 				System.out.println(Array[i] + "の意味は" + dicMap.get(Array[i]));
 			}else {
 				System.out.println(Array[i] + "は辞書に存在しません");

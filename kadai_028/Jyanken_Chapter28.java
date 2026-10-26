@@ -18,7 +18,6 @@ public class Jyanken_Chapter28 {
 		System.out.println(input);
 		
 		if(input.equals("p")) {
-	
 			System.out.print("自分の手はパー,");
 		}else if(input.equals("r")) {
 				System.out.print("自分の手はグー,");
@@ -40,11 +39,12 @@ public class Jyanken_Chapter28 {
 	
 	}
 	
-	void playGame() {
+	
+	public void playGame() {
 		String my = getMyChoice();
 		String cp = getRandom();
 		
-		if(my.equals(cp)) {
+		if(my.equals("p") && cp.equals("パー")) {
 			System.out.println("あいこです");
 		}else if(my.equals("p") && cp.equals("グー")) {
 			System.out.println("自分の勝ちです");
@@ -58,8 +58,11 @@ public class Jyanken_Chapter28 {
 			System.out.println("自分の勝ちです");
 		}else if(my.equals("s") && cp.equals("グー")) {
 			System.out.println("自分の負けです");
+		}else if(my.equals("r") && cp.equals("グー")) {
+			System.out.println("あいこです");
+		}else if(my.equals("s") && cp.equals("チョキ")) {
+			System.out.println("あいこです");
 		}
-		
 	}
 		
 }

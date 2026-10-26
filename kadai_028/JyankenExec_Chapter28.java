@@ -7,8 +7,7 @@ public class JyankenExec_Chapter28 {
 		// TODO 自動生成されたメソッド・スタブ
 		Jyanken_Chapter28 janken = new Jyanken_Chapter28();
 		
-		janken.getMyChoice();
-		janken.getRandom();
+		
 		janken.playGame();
 
 	}
